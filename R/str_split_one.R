@@ -14,6 +14,7 @@
 #' y <- "192.168.0.1"
 #' str_split_one(y, pattern = stringr::fixed("."))
 #' write this to understand push to git hub
+#' write this to learn push form terminal
 str_split_one <- function(string, pattern, n = Inf) {
   stopifnot(is.character(string), length(string) <= 1)
   if (length(string) == 1) {
